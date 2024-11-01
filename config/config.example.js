@@ -19,8 +19,8 @@ export const appConfig = {
 
   // FRONTEND LISTENING ADDRESS
   // an http server will be created on this host & port
-  host: "localhost",
-  port: 8080,
+  host: process.env.PORT,
+  port: 8000,
 
   // specifies a mirror for the theatre api
   // this mirror is used if there are no database credentials
